@@ -1,0 +1,36 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore test reports and logs
+reports/
+*.log
+*.xml
+*.json
+*.html
+*.junit.xml
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore virtual environment files
+venv/
+.envrc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+
+# Ignore Selenium WebDriver binaries (if downloaded manually)
+chromedriver
+geckodriver
+
+# Ignore GitLab CI/CD cache files
+.gitlab-ci.yml.cache
+coverage/
+*.cover
