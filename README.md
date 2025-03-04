@@ -1,0 +1,1 @@
+Pytest Automation is a scalable, secure, and modular test automation framework built using pytest. It is designed for testing Ui and API layers.
