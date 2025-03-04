@@ -2,3 +2,4 @@ pytest
 requests
 selenium
 pytest-html
+pytest-xdist
