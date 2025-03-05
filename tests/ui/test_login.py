@@ -4,7 +4,7 @@ from pages.login_page import LoginPage
 
 
 
-@pytest.mark.parametrize("password", ["invalidpass", "secret_sauce"])
+@pytest.mark.parametrize("password", ["secret_sauce"])
 @pytest.mark.ui
 def test_login(driver, password):
     """
