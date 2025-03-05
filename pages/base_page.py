@@ -28,3 +28,4 @@ class BasePage:
     def fill_in_field(self, locator, value):
         """Fills in the given value after waiting for the element to be visible."""
         self.find_element(locator).send_keys(value)
+        
