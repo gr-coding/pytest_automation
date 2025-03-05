@@ -19,10 +19,6 @@ class LoginPage(BasePage):
 
     def login(self, username, password):
         """Performs login action."""
-        self.enter_text(self.USERNAME_FIELD, username)
-        self.enter_text(self.PASSWORD_FIELD, password)
+        self.fill_in_field(self.USERNAME_FIELD, username)
+        self.fill_in_field(self.PASSWORD_FIELD, password)
         self.click(self.LOGIN_BUTTON)
-
-    def is_login_successful(self):
-        """Checks if login is successful based on the URL."""
-        return "inventory" in self.driver.current_url
